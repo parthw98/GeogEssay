@@ -2,6 +2,8 @@
 # Analysis of the project: National Parks in India
 ## Github repository link: https://github.com/parthw98/NationalParksInIndia
 
+[webmap] (https://parthw98.github.io/NationalParksInIndia/)
+
 ### Introduction
 <p> This project is a story map which illustrates major national parks in India and shows the users different national parks and wildlife sancturies in the Indian subcontient. The goal of this project is to provide information about different national parks in the country, provide their location, text information and pictures which provides greater knowledge and understanding of the wildlife, nature, flora, and fauna India has to offer. This project was made with the intention of providing an informative experience to web users across the globe helping them get insights and useful understanding about different national parks that can be visited and experienced in India with a snippet into what each national park is like. </p>
 <p> This web map experience was designed keeping different user groups in mind with a special focus on Bengal tiger enthusiasts. The target audience for this storymap is tourists and visitors from not only India but also various countries across the globe. Wildlife enthusiasts and endangered species spotters, along with wildlife photographers and documentators, will specially find this website interesting as it provides written information as well as pictures from different national parks.</p>
@@ -11,4 +13,4 @@
 ### Description
 ##### Servers
 <p> The client codes, files, images, and texts are hosted on a server on Github repository and the storymap is visible on the server. The client platform is updated using Atom and is hosted on the Github repository, while Github plays an important role in linking the client and the server platforms. Atom is the local server editor used in coding, manipulating and visualizing the data and making any required changes to the interactive webmap and its corrosponding page. The internal network of file and database servers is uploaded on the external Github platform in order to make it a open source for the benefit of the GIS community. The internal network initially hosted the file server which involved files and folders like assets, img, js, css etc. while the database server was absent as data was externally linked from the world wide web. The geospatial server hosted the code on Atom and git commands of `git clone` and `git push` were used to make contact and upload files to the web client server.</p>
-<p> </p>
+<p> These servers interact and complement each other in forming a chain to pass functions and codes in order to gain a desired outcome on the website. </p>
