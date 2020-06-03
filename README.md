@@ -67,10 +67,12 @@
 
 <p> This project also provides interactive features as certain design elements respond to mouse clicks and keyboard keys. For example the icons execute the pop-up. </p>
 ```
+
 corbett1: {
   layer: L.marker([29.543507, 78.792741],
     {icon:corbettIcon1}).bindPopup('<img src= "assets/img/corbett_tiger1.jpg" width="500">',
     {maxWidth: "auto"})},
+
 ```
 >This map also uses images as icons for better understanding and improving user experience.
 <p> The <code>bindPopup</code> function inherited from leaflet provides a mouse interaction with the icon and gives an enlarged image when clicked. This helps the user view the image icons in a highlighted larger format imcreasing his satisfasction with the map design. </p>
