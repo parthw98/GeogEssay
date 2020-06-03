@@ -76,4 +76,25 @@ corbett1: {
 <p> The <code>bindPopup</code> function inherited from leaflet provides a mouse interaction with the icon and gives an enlarged image when clicked. This helps the user view the image icons in a highlighted larger format imcreasing his satisfasction with the map design. </p>
 
 ### Data Sources
-<p> This project does not use any complicated data sources and sticks to simple coordinates, basemaps and their respective tiles, images, and text information in order to create a simple but interactive and user friendly experience for the user. </p>
+<p> This project does not use any complicated data sources and sticks to simple coordinates, basemaps and their respective tiles, images, and text information in order to create a simple but interactive and user friendly experience for the user. The following table provides the data sources used.</p>
+
+| Data        | Usage           | Type  |
+| ------------- |:-------------:| -----:|
+| text information      | description purposes | raster |
+| images      | visualization     |   raster |
+| coordinates | locational      |    vector |
+| maptiles    | reference     | raster |
+
+<p> The above vector as well as raster data sources provided an overall enriching user experience and pop-ups help in creating user interaction. The User interface is viberant and constitutes of beoth visual images which provide a visual understanding of the fauna that can be spotted at these national parks and provide the user with a pleasant visual delight of the wild forests sitting in concrete buildings with noise, air pollution, etc. giving them an escape into the wild from their regular lives. </p>
+<p> The User interface also provides textual information to the user, providing him the knowledge about this place and giving him an idea of the relevance and importance of this national park for the animals, as well as the local people and tourists. The Web mapping design is of a classic story map by providing information in te form of text and image on the left that constitute the content of the map, while the right side of the web page displays the map. The map provides a geographic understanding of the location of the national park and provides a spatial reference to the user. This system of the story map helps the user gain textual knowledge on the left side with visual representation on the right giving an hollistic approach to learning and the growth of knowledge. </p>
+
+### Design and Built
+**Basemaps** provide the basic layer or the foundation to the web map. It is the first layer which provide a cordinate system and reference parameters on which other layers are projected. This layer decides the orientation of the map and the vector directions. This project includes various baselayers.
+- _forestbase_ - This is a baselayer which I created using Mapbox studio, and styled its color, design, and other elements using the different features Mapbox had to offer. This baselayer can be later tiled using QGIS and converted into a raster format. I purposely used light and dar green color combination  in order to contrast the national park and its boundaries from the rest of the map. The roads and highways were purposely lightened in order to prevent the shift of focus and the labels were kept as light as possible so the user gets an idea which region and geographic location is being viewed as well as the national parks and their names have been highlighted. This basemap has been used for the Jim Corbett, Ranthambore, and Gir maps in the storyline.
+![forestbase](images/forests.png)
+-  _satellite_ - The satellite basemap was also refered from mapbox tiles API, and gave a satellite image of the region desired to be displayed. This basemap uses the satellite images of google earth which automatically differentiates between the green forest pastures and the yellow civilized territory. This gives a realistic approach to the storymap as it uses tiled images of the earth as the basemap for thematic layers. In addition, it marks and describes the terrain of the map as visible from space showing mountains, elevated surfaces, lakes, depressions etc. The satellite map is the nasemap for the Kanha national park map representation.
+![satellite](images/kanha.png)
+-  _ESRI_ - The ESRI basemap that is refered in this project also inherits the same qualities of the satellite basemap as both are spatial images of the earth that have been converted into tile layers. The ESRI map viberantly demonstrates the greenery and pastures and is more high definition in comparsion to the satellite basemap as it is taken from Google Earth, a high definition mapping and user friendly software as well as browser. This basemap is used for the Kaziranga national park.
+![ESRI](images/kazi.png)
+-  _GEE_ - The GEE basemap is one of my favorite basemaps from this project as it is only built with two colors white and green. This helps in the easy differentiation of the forest area from the rest. This map only highlights the forest area in different parts of the world and its raster tiles are helpful in marking and visualizing the national parks in different regions. This provides a light baselayer which helps in highlighting the thematic layers which serve the main purpose of the story line. The Sundarbans National Park map is made using this baselayer.
+![GEE](images/gees.png) 
