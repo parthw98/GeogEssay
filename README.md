@@ -66,13 +66,13 @@
 <p>These are the various libraries, plugins, and references used in order to run the storymap program. It involves various leaflet CSS stylesheets to provide the design and aesthetic beauty to the web page. Various classes can be directly used from there stylesheets,css, and js folders directly into to the code for better performance and easy use. Jquery is another libary implemented in order to use geospatial data and process geojson files. This library provides functions to directly implement spatial data coordinates, locational geojson files etc. into the code and directly serve the desired purpose. The storymap plugin is an important reference as it helps in the creation of this story map and provides classes and functions in order to systematically execute a sequence and provide it in the form of a story line.</p>
 
 <p> This project also provides interactive features as certain design elements respond to mouse clicks and keyboard keys. For example the icons execute the pop-up. </p>
+
 ```
 
 corbett1: {
   layer: L.marker([29.543507, 78.792741],
     {icon:corbettIcon1}).bindPopup('<img src= "assets/img/corbett_tiger1.jpg" width="500">',
     {maxWidth: "auto"})},
-
 ```
 >This map also uses images as icons for better understanding and improving user experience.
 <p> The <code>bindPopup</code> function inherited from leaflet provides a mouse interaction with the icon and gives an enlarged image when clicked. This helps the user view the image icons in a highlighted larger format imcreasing his satisfasction with the map design. </p>
